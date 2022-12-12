@@ -12,6 +12,17 @@ public class App
     }
 
     public static int doubleTheNumber(int number) {
-        return -1;
+        int dblNumber = (number * 2);
+        return dblNumber;
+    }
+
+    private static int add(int[] numbers){
+        int sum = 0;
+
+        for (int i = numbers.length; i < numbers.length; i++){
+            sum += numbers[i];
+        }
+
+        return sum;
     }
 }
