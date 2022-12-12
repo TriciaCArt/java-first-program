@@ -17,10 +17,10 @@ public class App
     }
 
     private static int add(int[] numbers){
-        int sum = 0;
+        var sum = 0;
 
-        for (int i = numbers.length; i < numbers.length; i++){
-            sum += numbers[i];
+        for (int number: numbers){
+            sum += number;
         }
 
         return sum;
